@@ -145,12 +145,11 @@ function Footer() {
         </div>
       </div>
       <p className="ftr__word" aria-hidden="true">
-        <span>code</span><Bar className="ftr__bar" /><span>drio</span>
+        <span>Code</span><span>Drio</span>
       </p>
       <div className="ftr__base grid">
         <p>© 2026 {site.name}</p>
         <p>{site.location}</p>
-        <p>Set in Archivo and JetBrains Mono</p>
       </div>
     </footer>
   )

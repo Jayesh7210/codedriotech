@@ -9,8 +9,8 @@
 export const site = {
   name: 'CodeDrio Technologies',
   short: 'codedrio',
-  url: 'https://codedriotech.com', // placeholder: true
-  email: 'contact@codedriotech.com', // placeholder: true
+  url: 'https://codedrio.co.in/', // placeholder: true
+  email: 'codedriotech@gmail.com', // placeholder: true
   location: 'Based in India, working with teams in any time zone.', // placeholder: true
   launch: '2026-12-07T00:00:00+05:30',
   launchLabel: '07.12.2026',
@@ -53,7 +53,7 @@ export const pages = {
 
 export const hero = {
   intro:
-    'CodeDrio Technologies is a software and AI engineering company. We open to the public on 7 December 2026 and are taking early projects now.',
+    'CodeDrio Technologies is a software and AI engineering company. ',
 };
 
 export const statement =
@@ -61,7 +61,7 @@ export const statement =
 
 export const services = [
   {
-    slug: 'agents',
+    slug: 'AI_Agents',
     name: 'AI agents and LLM products',
     short: 'Agents, retrieval, evals',
     summary:
@@ -75,7 +75,7 @@ export const services = [
     stack: ['Python', 'TypeScript', 'PyTorch', 'pgvector'],
   },
   {
-    slug: 'cloud',
+    slug: 'Cloud',
     name: 'Cloud and DevOps',
     short: 'Infrastructure as code',
     summary:
@@ -89,7 +89,7 @@ export const services = [
     stack: ['Terraform', 'Kubernetes', 'Docker', 'GitHub Actions'],
   },
   {
-    slug: 'backend',
+    slug: 'Backend',
     name: 'Backends and APIs',
     short: 'Services that stay fast',
     summary:
@@ -103,7 +103,7 @@ export const services = [
     stack: ['Go', 'Rust', 'Node.js', 'gRPC', 'Kafka'],
   },
   {
-    slug: 'apps',
+    slug: 'Apps',
     name: 'Web and mobile apps',
     short: 'Product interfaces',
     summary:
@@ -117,7 +117,7 @@ export const services = [
     stack: ['React', 'Next.js', 'React Native', 'TypeScript'],
   },
   {
-    slug: 'data',
+    slug: 'Data_Solutions',
     name: 'Data platforms',
     short: 'Numbers people trust',
     summary:
@@ -131,7 +131,7 @@ export const services = [
     stack: ['Kafka', 'ClickHouse', 'PostgreSQL', 'Redis'],
   },
   {
-    slug: 'security',
+    slug: 'Security',
     name: 'Security engineering',
     short: 'Designed in, not bolted on',
     summary:
