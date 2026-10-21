@@ -9,7 +9,7 @@
 export const site = {
   name: 'CodeDrio Technologies',
   short: 'codedrio',
-  url: 'https://codedrio.co.in/', // placeholder: true
+  url: 'https://codedrio.co.in', // placeholder: true
   email: 'codedriotech@gmail.com', // placeholder: true
   location: 'Based in India, working with teams in any time zone.', // placeholder: true
   launch: '2026-12-07T00:00:00+05:30',
