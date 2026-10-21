@@ -79,7 +79,8 @@ function headerTone() {
   const check = () => {
     const hdr = document.querySelector('.hdr')
     if (!hdr) return
-    const solid = scrollY > 80
+    const below = document.elementsFromPoint(innerWidth / 2, hdr.offsetHeight + 2).find((n) => !n.closest('.hdr'))
+    const solid = scrollY > 80 && !below?.closest('.stage') // the hero keeps its full-bleed cut
     hdr.classList.toggle('is-solid', solid)
     const bandInk = solid && onInk(innerWidth / 2, hdr.offsetHeight + 2)
     hdr.classList.toggle('is-ink', bandInk)
